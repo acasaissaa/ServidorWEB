@@ -11,4 +11,4 @@ services:
     stdin_open: true  # docker run -i
     tty: true         # docker run -t
     dns:
-      - 10.1.0.254  # el contenedor dns server
+      - 10.1.0.254  # el contenedor DNS server
