@@ -1,11 +1,11 @@
 version: "3.3"
 services:
-  apacheWEB: ## Servidor
+  apacheWEB: # Servidor
     container_name: apacheWEB
     image: httpd
     ports:
       - 81:80
-  kasmweb: ## Cliente
+  kasmweb: # Cliente
     container_name: kasmweb
     image: kasmweb/desktop:1.7.0
     stdin_open: true  # docker run -i
